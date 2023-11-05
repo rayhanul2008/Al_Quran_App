@@ -80,7 +80,8 @@ flutter:
     - family: uthman
       fonts:
         #- asset: fonts/Katibeh-Regular.ttf
-        - asset: fonts/@Am9li9 _ مهدي القرآن.ttf
+        #- asset: fonts/Amiri-Regular.ttf
+        #- asset: fonts/@Am9li9 _ مهدي القرآن.ttf
         #- asset: fonts/Bazzi Uthmani @Am9li9.ttf
         #- asset: fonts/Misbah Hafs @Am9li9.ttf
         #- asset: fonts/KFGQPC Uthman Taha Naskh Regular.ttf
