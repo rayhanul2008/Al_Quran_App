@@ -47,62 +47,61 @@ class _HomePageState extends State<HomePage> {
           //backgroundColor: Color.fromARGB(255, 20, 174, 156),
           backgroundColor: const Color.fromARGB(255, 20, 174, 156),
         ),
-        body: Align(
-            alignment: const Alignment(0, 0),
-            child: Column(
-              children: [
-                ...surahs
-                    .map((surah) => Padding(
-                          padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
-                          child: InkWell(
-                            onTap: () {
-                              Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) =>
-                                      SurahPage(surah: surah)));
-                            },
-                            child: Material(
-                              color: Colors.transparent,
-                              shape: RoundedRectangleBorder(
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              ...surahs
+                  .map((surah) => Padding(
+                        padding: const EdgeInsets.all(10),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => SurahPage(surah: surah)));
+                          },
+                          child: Material(
+                            color: Colors.transparent,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            elevation: 3,
+                            child: Container(
+                              alignment: Alignment.center,
+                              // width: MediaQuery.of(context).size.width * 0.9,
+                              height: 60,
+                              decoration: BoxDecoration(
+                                color: const Color.fromARGB(255, 241, 246, 245),
                                 borderRadius: BorderRadius.circular(10),
                               ),
-                              elevation: 3,
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.9,
-                                height: 60,
-                                decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromARGB(255, 241, 246, 245),
-                                  borderRadius: BorderRadius.circular(10),
-                                ),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.all(20.0),
-                                      child: Text(surah.name,
-                                          style: const TextStyle(
-                                            fontFamily: "kalpurush",
-                                          )),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.all(20.0),
-                                      child: Text(
-                                        surah.surahNo.toString(),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(20.0),
+                                    child: Text(surah.name,
                                         style: const TextStyle(
-                                          fontFamily: "lato",
-                                        ),
-                                      ), // Text("${surah.surahNo}"),
-                                    )
-                                  ],
-                                ),
+                                          fontFamily: "kalpurush",
+                                        )),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.all(20.0),
+                                    child: Text(
+                                      surah.surahNo.toString(),
+                                      style: const TextStyle(
+                                        fontFamily: "lato",
+                                      ),
+                                    ), // Text("${surah.surahNo}"),
+                                  )
+                                ],
                               ),
                             ),
                           ),
-                        ))
-                    .toList()
-              ],
-            )),
+                        ),
+                      ))
+                  .toList()
+            ],
+          ),
+        ),
       ),
     );
   }

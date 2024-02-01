@@ -1,44 +1,45 @@
 List quranData = [
   {
+    // Ayat- Uthmani Hafs
     // English- Yusuf Ali
-    // Ayat - Uthmani Hafs
+    // bangla- Hafez Munir Uddin A
     "Surah No": 1,
     "Name": "সূরা আল ফাতিহা",
     "Ayats": [
       {
-        "Ayat": "﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "Ayat": "بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ",
         "Bangla Translation":
             "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
         "English Translation":
-            "In the name of God, Most Gracious, Most Merciful"
+            "In the name of God, Most Gracious, Most Merciful."
       },
       {
         "Ayat": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
         "Bangla Translation":
             "যাবতীয় প্রশংসা আল্লাহ তা’আলার যিনি সকল সৃষ্টি জগতের পালনকর্তা।",
         "English Translation":
-            "Praise be to God, the Cherisher and Sustainer of the worlds"
+            "Praise be to God, the Cherisher and Sustainer of the worlds."
       },
       {
         "Ayat": "الرَّحْمَـٰنِ الرَّحِيمِ",
         "Bangla Translation": "যিনি নিতান্ত মেহেরবান ও দয়ালু।",
-        "English Translation": "Most Gracious, Most Merciful"
+        "English Translation": "Most Gracious, Most Merciful."
       },
       {
         "Ayat": "مَالِكِ يَوْمِ الدِّينِ",
         "Bangla Translation": "যিনি বিচার দিনের মালিক।",
-        "English Translation": "Master of the Day of Judgment"
+        "English Translation": "Master of the Day of Judgment."
       },
       {
         "Ayat": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
         "Bangla Translation":
             "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
-        "English Translation": "Thee do we worship, and Thine aid we seek"
+        "English Translation": "Thee do we worship, and Thine aid we seek."
       },
       {
         "Ayat": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
         "Bangla Translation": "আমাদেরকে সরল পথ দেখাও,",
-        "English Translation": "Show us the straight way"
+        "English Translation": "Show us the straight way,"
       },
       {
         "Ayat":
@@ -46,7 +47,7 @@ List quranData = [
         "Bangla Translation":
             "সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।",
         "English Translation":
-            "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray"
+            "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray."
       },
     ]
   },
