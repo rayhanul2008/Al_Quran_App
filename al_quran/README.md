@@ -1,16 +1,20 @@
-# al_quran
+# Privacy Policy for Al Quran
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+Welcome to Al Quran! This Privacy Policy is designed to help you understand how we collect, use, and safeguard your personal information when you use our Al-Quran app.
 
-This project is a starting point for a Flutter application.
+## Information We Collect
 
-A few resources to get you started if this is your first Flutter project:
+We do NOT collect any kind of data or information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Changes to This Privacy Policy
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+## Contact Us
+
+If you have any questions or suggestions about our Privacy Policy, please contact us at `rayhanulislam.mukul@gmail.com`.
+
+Last updated: [01-Feb-2024]
+
