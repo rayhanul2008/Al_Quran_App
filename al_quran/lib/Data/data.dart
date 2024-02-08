@@ -159,7 +159,7 @@ List quranData = [
       {
         "Ayat No": 1,
         "Ayat": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
-        "Bangla Translation": "পেরে যাক আবু লাহাবের হাত ও পেরে যাক আবু লাহাব।",
+        "Bangla Translation": "আবু লাহাবের হস্তদ্বয় ধ্বংস হোক এবং ধ্বংস হোক সে নিজে,",
         "English Translation":
             "Perish the hands of the Father of Flame! Perish he",
       },
@@ -167,28 +167,28 @@ List quranData = [
         "Ayat No": 2,
         "Ayat": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
         "Bangla Translation":
-            "তাঁর ধন তাঁকে কিছুই লাভ করে না এবং তাঁর কাজের কিছুই লাভ করে না।",
+            "কোন কাজে আসেনি তার ধন-সম্পদ ও যা সে উপার্জন করেছে।",
         "English Translation":
             "No profit to him from all his wealth, and all his gains",
       },
       {
         "Ayat No": 3,
         "Ayat": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
-        "Bangla Translation": "তিনি নিশ্চয় একটি লোহার জ্বালানির জন্য যাবেন।",
+        "Bangla Translation": "সত্বরই সে প্রবেশ করবে লেলিহান অগ্নিতে",
         "English Translation":
             "Burnt soon will he be in a Fire of Blazing Flame",
       },
       {
         "Ayat No": 4,
         "Ayat": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
-        "Bangla Translation": "এবং তাঁর স্ত্রী তাঁর কাছে কাঠের টোকা নিয়ে আসে।",
+        "Bangla Translation": "এবং তার স্ত্রীও-যে ইন্ধন বহন করে,",
         "English Translation":
             "His wife shall carry the (crackling) wood - As fuel",
       },
       {
         "Ayat No": 5,
         "Ayat": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
-        "Bangla Translation": "তাঁর গলার চারপাশে একটি বাঁধা থাকে।",
+        "Bangla Translation": "তার গলদেশে খর্জুরের রশি নিয়ে।",
         "English Translation":
             "A twisted rope of palm-leaf fibre round her (own) neck",
       },
